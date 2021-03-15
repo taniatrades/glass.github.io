@@ -1,37 +1,86 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/taniatrades/glass.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/taniatrades/glass.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glass Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="glass">
+        <div class="dashboard">
+          <div class="user">
+            <img src="./images/avatar.png" alt="" />
+            <h3>Tania V.</h3>
+            <p>Pro Member</p>
+          </div>
+          <div class="links">
+            <div class="link">
+              <img src="./images/twitch.png" alt="" />
+              <h2>Streams</h2>
+            </div>
+            <div class="link">
+              <img src="./images/steam.png" alt="" />
+              <h2>Games</h2>
+            </div>
+            <div class="link">
+              <img src="./images/upcoming.png" alt="" />
+              <h2>New</h2>
+            </div>
+            <div class="link">
+              <img src="./images/library.png" alt="" />
+              <h2>Library</h2>
+            </div>
+          </div>
+          <div class="pro">
+            <h2>Join pro for free games.</h2>
+            <img src="./images/controller.png" alt="" />
+          </div>
+        </div>
+        <div class="games">
+          <div class="status">
+            <h1>Active Games</h1>
+            <input type="text" /> 
+          </div>
+          <div class="cards">
+            <div class="card">
+              <img src="./images/assassins.png" alt="" />
+              <div class="card-info">
+                <h2>Assassins Creed Valhalla</h2>
+                <p>PS5 Version</p>
+                <div class="progress"></div>
+              </div>
+              <h2 class="percentage">60%</h2>
+            </div>
+            <div class="card">
+              <img src="./images/sackboy.png" alt="" />
+              <div class="card-info">
+                <h2>Sackboy A Great Advanture</h2>
+                <p>PS5 Version</p>
+                <div class="progress"></div>
+              </div>
+              <h2 class="percentage">60%</h2>
+            </div>
+            <div class="card">
+              <img src="./images/spiderman.png" alt="" />
+              <div class="card-info">
+                <h2>Spiderman Miles Morales</h2>
+                <p>PS5 Version</p>
+                <div class="progress"></div>
+              </div>
+              <h2 class="percentage">60%</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+  </body>
+</html>
